@@ -1,6 +1,6 @@
 package adventure;
 
-import AOC.Adventure;
+import aoc.Adventure;
 import org.testng.Assert;
 
 import java.util.logging.Logger;

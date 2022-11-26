@@ -1,6 +1,6 @@
-package AOC.SOLUTIONS.Y2020;
+package aoc.solutions.Y2020;
 
-import AOC.SOLUTIONS.Solution;
+import aoc.solutions.Solution;
 
 import java.util.List;
 import java.util.logging.Logger;

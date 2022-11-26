@@ -7,3 +7,5 @@ acc -99
 acc +1
 jmp -4
 acc +6
+t1 5
+t2 8
