@@ -16,9 +16,6 @@ public class Day13 extends Solution {
     //rather strange task
     private static volatile Day13 instance = null;
 
-    private Day13() {
-    }
-
     public static Day13 getInstance() {
         if (instance == null) {
             synchronized (Day13.class) {

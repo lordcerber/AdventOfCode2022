@@ -13,9 +13,6 @@ public class Day14 extends Solution  {
     //bitmasks. i have no idea how to work with core bitmasks
     private static volatile Day14 instance = null;
 
-    private Day14() {
-    }
-
     public static Day14 getInstance() {
         if (instance == null) {
             synchronized (Day14.class) {

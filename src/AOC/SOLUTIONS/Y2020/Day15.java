@@ -9,21 +9,6 @@ import java.util.stream.Collectors;
 
 public class Day15 extends Solution {
     //bitmasks. i have no idea how to work with core bitmasks
-    private static volatile Day15 instance = null;
-
-    private Day15() {
-    }
-
-    public static Day15 getInstance() {
-        if (instance == null) {
-            synchronized (Day15.class) {
-                if (instance == null) {
-                    instance = new Day15();
-                }
-            }
-        }
-        return instance;
-    }
 
     public static long solveTask1(List<Long> report, Long limit) {
         HashMap<Long,Long> gameLog = new HashMap();

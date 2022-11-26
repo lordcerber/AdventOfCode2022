@@ -33,9 +33,6 @@ public class Day7 extends Solution {
 
     private static volatile Day7 instance = null;
 
-    private Day7() {
-    }
-
     public void parseInput(String input) {
 
         Pattern pattern = Pattern.compile("(?<color>\\w+ \\w+)( bags contain )(?<tail>.+)");
