@@ -3,7 +3,7 @@ package adventure;
 import aoc.AdventCalendar;
 import org.testng.annotations.Test;
 
-public class AdventureTestCalendar {
+public class AdventureTestCalendar2020 {
 
 
     @Test

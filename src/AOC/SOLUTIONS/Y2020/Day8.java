@@ -9,8 +9,8 @@ import java.util.logging.Logger;
 public class Day8 extends Solution {
     /*
      * So todays task is about running a program
-     * the input is given as text with two operands in a line
-     * there will be lots of jumping the input
+     * the Input is given as text with two operands in a line
+     * there will be lots of jumping the Input
      * so hash map is not the choice.. lists will do
      * */
     public static final String NOP = "nop";
