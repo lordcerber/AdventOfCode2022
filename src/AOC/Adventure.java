@@ -65,9 +65,9 @@ public class Adventure {
     private String solution(int var) {
         String result = "error this must not happen";
         if (var == FIRST) {
-            result = getSolution(date).solveFirst(inputTest);
+            result = getSolution(date).solveFirst(input);
         } else if (var == SECOND) {
-            result = getSolution(date).solveSecond(inputTest);
+            result = getSolution(date).solveSecond(input);
         }
         Logger.getGlobal().info("calculation result is " + result);
         return result;
